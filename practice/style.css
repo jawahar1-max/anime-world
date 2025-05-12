@@ -1,0 +1,74 @@
+.container{
+    background-color: black;
+}
+#topic{
+    display: inline-block;
+    margin-top: 80px;
+    
+} 
+#head{
+    color:white;
+    padding: 30px;
+    border-radius: 10px;
+    border-width:10px;
+    border-style: solid;
+    border-color:white;
+    display: inline;
+    animation-name:line ;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+hr{
+    margin-top:100px;
+    border-width: 5px;
+   
+
+
+}
+
+#anime-list {
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between items */
+    flex-wrap: wrap; /* Ensures items wrap to the next line if needed */
+}
+
+.anime-item {
+    text-align: center; /* Centers content inside each item */
+    margin: 30px; /* Adds spacing around each item */
+    width: 400px; /* Optional: Set a fixed width for each item */
+}
+img{
+    width:200px;
+    height:200px;
+}
+button {
+ 
+
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+
+
+}
+@keyframes line{
+    0%{border-top-color:rgb(231, 239, 236)}
+    25%{border-right-color:rgb(234, 84, 20)}
+    50%{border-bottom-color:rgb(8, 249, 137)}
+    75%{border-left-color:rgb(17, 46, 236)}
+    100%{border-top-color:rgb(17, 236, 159)}
+}
